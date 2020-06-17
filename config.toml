@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://heathharrelson.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Heath Harrelson's Blog"
+theme = "anubis"
+
+[params]
+author = "Heath Harrelson"
+description = "Heath Harrelson's software development blog"
+dateFormat = "01/02/2006"
