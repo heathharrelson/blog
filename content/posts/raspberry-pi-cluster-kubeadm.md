@@ -1,26 +1,29 @@
 ---
 title: "Building a Raspberry Pi Kubernetes Cluster with Kubeadm"
-# TODO description
-# TODO title
-date: 2020-06-16T19:53:03-07:00
-draft: true
+description: Describes how to set up a production-like Kubernetes cluster using Raspberry Pi 4 model B computers and the kubeadm utility.
+date: 2020-06-20T05:21:38.051Z
+draft: false
+tags:
+- kubernetes
+- raspberry pi
 ---
 
-This article describes how to build a personal [Kubernetes](https://kubernetes.io/) cluster using [Raspberry Pi](https://www.raspberrypi.org/) single-board computers and [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/).<!--more--> There is a TODO LINK companion article that describes how to do the same thing using [k3s](https://k3s.io/).
+This article describes how to build a personal [Kubernetes](https://kubernetes.io/) cluster using [Raspberry Pi](https://www.raspberrypi.org/) single-board computers and [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/).<!--more-->
+<!-- There is a TODO LINK companion article that describes how to do the same thing using [k3s](https://k3s.io/). -->
 
 ## Materials
 
 ### Hardware
 
-Hardware used:
+I used the following hardware to build the cluster described below.
 
 * 3 Raspberry Pi 4 Model B (4 GB)
 * 3 LoveRPi PoE hat for Raspberry Pi 4 Model B (compact)
 * TP-Link 8 port PoE gigabit switch
 
-I previously built a cluster using Raspberry Pi 3 Model B+ computers. While this will work, the performance is underwhelming, and it doesn't leave many resources left for applications. The Raspberry Pi 4 is much more capable.
+I previously built a cluster using Raspberry Pi 3 Model B+ computers. While this worked, the performance was underwhelming, and it didn't leave many resources left for applications. If you have the option, the Raspberry Pi 4 is much more capable.
 
-[Power over Ethernet](https://en.wikipedia.org/wiki/Power_over_Ethernet) is optional, but it saves on cabling and makes for a much tidier cluster.
+Using [power over Ethernet (PoE)](https://en.wikipedia.org/wiki/Power_over_Ethernet) is optional. You can use pretty much any Ethernet switch to build your cluster, but with PoE the result is much tidier.
 
 ### Software
 
@@ -239,16 +242,4 @@ Commercial support is available at
 
 This should work for all nodes, including the master.
 
-Congratulations! You now have your own Kubernetes cluster.
-
-## Links
-
-* Hypriot blog: https://blog.hypriot.com/
-* Weave Net Documentation: https://www.weave.works/docs/net/latest/kubernetes/kube-addon/
-* [Jeff Geerling YouTube series on Kubernetes on Raspberry Pi](https://www.youtube.com/watch?v=kgVz4-SEhbE)
-  * [Episode 3 (cluster setup)](https://www.youtube.com/watch?v=N4bfNefjBSw) and [episode 4 (deploying applications)](https://www.youtube.com/watch?v=IafVCHkJbtI) are the most interesting if you aleady know a bit about k8s
-  * GitHub repo: https://github.com/geerlingguy/turing-pi-cluster
-* NFS client provisioner: https://opensource.com/article/20/6/kubernetes-nfs-client-provisioning
-
-
-k3s Ansible playbook: https://github.com/rancher/k3s-ansible
+Congratulations, you now have your own Kubernetes cluster!
