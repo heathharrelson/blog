@@ -11,7 +11,7 @@ tags:
 
 While working on building my Raspberry Pi 4 Kubernetes cluster, I came across this [excellent YouTube series from Jeff Geerling on building a 7-node Kubernetes cluster](https://www.youtube.com/playlist?list=PL2_OBreMn7Frk57NLmLheAaSSpJLLL90G) using a [Turing Pi](https://turingpi.com/) and Raspberry Pi Compute Module 3+ boards.<!--more-->
 
-{{< youtube PL2_OBreMn7Frk57NLmLheAaSSpJLLL90G >}}
+{{< youtube kgVz4-SEhbE >}}
 
 The series is interesting even if you already know a bit about Kubernetes, particularly [episode 3 (cluster setup)](https://www.youtube.com/watch?v=N4bfNefjBSw) and [episode 4 (deploying applications)](https://www.youtube.com/watch?v=IafVCHkJbtI).
 
