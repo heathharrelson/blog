@@ -1,7 +1,7 @@
 ---
 title: "Building a Raspberry Pi Kubernetes Cluster with Kubeadm"
 description: Describes how to set up a production-like Kubernetes cluster using Raspberry Pi 4 model B computers and the kubeadm utility.
-date: 2020-06-20T05:21:38.051Z
+date: 2020-06-19T22:21:38.051-07:00
 draft: false
 tags:
 - kubernetes

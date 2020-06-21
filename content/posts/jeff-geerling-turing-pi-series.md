@@ -1,7 +1,7 @@
 ---
 title: Turing Pi Kubernetes Cluster YouTube Series
 description: While building my Raspberry Pi 4 Kubernetes cluster, I came across this excellent YouTube series from Jeff Geerling.
-date: 2020-06-20T06:13:07.358Z
+date: 2020-06-19T23:13:07.358-07:00
 draft: false
 tags:
 - kubernetes
